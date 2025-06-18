@@ -1,0 +1,17 @@
+{
+    "server": {
+      "port": 3001,
+      "host": "0.0.0.0"
+    },
+    "models": [
+      {
+        "model_id": "llama-3.2-3b-product-analyzer",
+        "model_path": "/Users/mjcudalorca/work/QINSIGHT/models/Meta-Llama-3.1-8B-Instruct-Q4_K_M.gguf",
+        "system_prompt_path": "./prompts/productAnalyzerPromptv3.txt",
+        "context_size": 5120,
+        "batch_size": 256,
+        "min_instances": 1,
+        "max_instances": 1
+      }
+    ]
+  }
